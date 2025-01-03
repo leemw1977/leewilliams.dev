@@ -1,4 +1,7 @@
-baseURL = './'
+baseURL = "https://leewilliams.dev/"
+relativeURLs = false
+canonifyURLs = true
+
 languageCode = 'en-gb'
 title = 'Lee Williams'
 theme = "hugo-coder"
