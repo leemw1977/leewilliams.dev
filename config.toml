@@ -1,5 +1,4 @@
 baseURL = "https://leewilliams.dev/"
-relativeURLs = false
 canonifyURLs = true
 
 languageCode = 'en-gb'
