@@ -138,3 +138,7 @@ Setting up a Hugo site was an adventure - which I'm really glad I undertook. The
 If you’re diving into Hugo or static site generation, don’t be afraid to experiment, break things, and debug. That’s half the fun! 🎉
 
 Have any questions or tips? Drop them in the comments—I’d love to hear from you! 😊
+
+
+##### _Edited to add: 03/01/2025 21:35_
+I wanted to add GTM, so currently the quickest way for me to do that was to create my own copy of the theme - I must remember to look into that more too as I'm not sure if I was using the way the theme says to do it correctly - it should be supported but looking at the analytics files in the theme something looks off - but don't quote me I could wrong.

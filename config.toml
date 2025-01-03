@@ -3,7 +3,7 @@ canonifyURLs = true
 
 languageCode = 'en-gb'
 title = 'Lee Williams'
-theme = "hugo-coder"
+theme = "leewilliams-hugo-coder"
 defaultcontentlanguage = "en-gb"
 
 
@@ -39,8 +39,7 @@ hidecolorschemetoggle = false
 # customCSS = ["css/custom.css"]
 # customSCSS = ["scss/custom.scss"]
 # customJS = ["js/custom.js"]
-[params.googleTagManager]
-id = "GTM-KPR76X48"
+
 
 [taxonomies]
   category = "categories"
