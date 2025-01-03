@@ -3,8 +3,6 @@ languageCode = 'en-gb'
 title = 'Lee Williams'
 theme = "hugo-coder"
 defaultcontentlanguage = "en-gb"
-relativeURLs = true
-canonifyURLs = false
 
 
 [pagination]
