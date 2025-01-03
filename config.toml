@@ -11,34 +11,36 @@ defaultcontentlanguage = "en-gb"
 pagerSize = 20
 
 [services]
-[services.disqus]
-shortname = "yourdiscussshortname"
+#[services.disqus]
+#shortname = "yourdiscussshortname"
 
 [markup.highlight]
 style = "github-dark"
 
 [params]
-  author = "Lee Williams"
-  info = "Dad, Amateur Theatre, Technologist, and Coder."
-  description = "Lee Williams's personal website"
-  keywords = "blog,developer,personal"
-  avatarurl = "/images/avatar.webp"
-  #gravatar = "me@leewilliams.dev"
+author = "Lee Williams"
+info = "Dad, Amateur Theatre, Technologist, and Coder."
+description = "Lee Williams's personal website"
+keywords = "blog,developer,personal"
+avatarurl = "/images/avatar.webp"
+#gravatar = "me@leewilliams.dev"
 
-  faviconSVG = "/images/favicon.svg"
-  favicon_32 = "/images/favicon-32x32.png"
-  favicon_16 = "/images/favicon-16x16.png"
+faviconSVG = "/images/favicon.svg"
+favicon_32 = "/images/favicon-32x32.png"
+favicon_16 = "/images/favicon-16x16.png"
 
-  since = 1998
+since = 1998
 
-  enableTwemoji = true
+enableTwemoji = true
 
-  colorScheme = "auto"
-  hidecolorschemetoggle = false
+colorScheme = "auto"
+hidecolorschemetoggle = false
 
-  # customCSS = ["css/custom.css"]
-  # customSCSS = ["scss/custom.scss"]
-  # customJS = ["js/custom.js"]
+# customCSS = ["css/custom.css"]
+# customSCSS = ["scss/custom.scss"]
+# customJS = ["js/custom.js"]
+[params.googleTagManager]
+id = "GTM-KPR76X48"
 
 [taxonomies]
   category = "categories"
