@@ -12,18 +12,22 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-
-      - name: Initialize Git submodules
-        run: git submodule update --init --recursive
-      
+        with:
+          submodules: recursive      
 
       - name: Install Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: 'latest'
 
+      - name: List theme files
+        run: ls -R themes
+
       - name: Build site
-        run: hugo --minify
+        run: hugo --cleanDestinationDir --minify
+
+      - name: List generated files
+        run: ls -R public
 
       - name: Deploy via FTP
         uses: SamKirkland/FTP-Deploy-Action@4.3.0
